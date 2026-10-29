@@ -272,7 +272,31 @@
   <link rel="stylesheet" href="../ai-news-dashboard/case-study-workspace.css">
   <link rel="stylesheet" href="../project-workspace.css">
   <link rel="stylesheet" href="../market-workspace.css">
-  <link rel="stylesheet" href="../project-directory.css">
+  <style data-project-navigation="bottom-v2">/* Shared project directory */
+.project-directory{box-sizing:border-box;width:min(1180px,calc(100% - 32px));margin:16px auto;padding:16px 20px;border:1px solid #cbd8d0;border-radius:22px;background:#fff;color:#293e35;font:600 16px/1.4 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;box-shadow:0 4px 20px #173d2f05}
+.project-directory *{box-sizing:border-box}
+.pd-top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-bottom:10px;border-bottom:1px solid #dce5df}
+.pd-home{display:flex;align-items:center;gap:16px;text-decoration:none!important;color:#293e35!important;white-space:nowrap}
+.pd-count{font:600 15px/1.4 ui-monospace,monospace;color:#6a786e}
+.pd-next{padding:16px 22px;border-radius:12px;background:#176f65;color:#fff!important;text-decoration:none!important;white-space:nowrap;transition:background .2s}
+.pd-next:hover{background:#10584f}
+.pd-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding-top:8px}
+.pd-links a{display:flex;justify-content:center;align-items:center;gap:12px;padding:16px 8px;text-decoration:none!important;border-radius:12px;color:#637168!important;white-space:nowrap}
+.pd-links a span{font:500 14px/1.4 ui-monospace,monospace}
+.pd-links a[aria-current="page"]{background:#e8f2ec;color:#116f63!important;font-weight:750}
+.pd-links a:hover{background:#f0f5f2}
+.project-directory a:focus-visible{outline:3px solid #176f65;outline-offset:3px}
+@media(min-width:900px){.project-directory{font-size:20px}.pd-count{font-size:18px}.pd-next{padding:18px 24px}.pd-links a{padding:18px 10px}.pd-links a span{font-size:16px}}
+@media(max-width:480px){.project-directory{padding:12px;margin:12px auto;border-radius:16px;font-size:14px}.pd-home{gap:8px}.pd-count{font-size:12px}.pd-next{padding:12px}.pd-links{gap:3px}.pd-links a{gap:6px;padding:13px 3px;font-size:13px}.pd-links a span{font-size:11px}}
+
+/* Bottom project navigation, consistent with the Awinic portfolio. */
+body{padding-bottom:190px}
+.project-directory{position:fixed;z-index:60;left:0;right:0;bottom:calc(18px + env(safe-area-inset-bottom));margin:0 auto;background:#fffffff5;box-shadow:0 6px 32px #203c3021;backdrop-filter:blur(16px);max-width:1080px;padding:12px 16px;font-size:16px}
+.project-directory .pd-next{padding:12px 20px}
+.project-directory .pd-links a{padding:12px 8px}
+@media(max-width:480px){body{padding-bottom:160px}.project-directory{bottom:calc(10px + env(safe-area-inset-bottom));padding:10px 12px;font-size:14px}.project-directory .pd-next{padding:10px 12px}.project-directory .pd-links a{padding:10px 3px}}
+@media print{.project-directory{display:none}body{padding-bottom:0}}
+</style>
 </head>
 <body>
 
