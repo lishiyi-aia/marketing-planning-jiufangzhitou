@@ -1,5 +1,5 @@
 ---
-title: AI资讯产品用户洞察与品牌推广
+title: AI资讯产品私域触达与转化优化
 banner: works/covers/sohu-dashboard.png
 year: 2026
 role: 用户洞察 / 品牌内容 / 活动推广 / 达人协作 / AI看板复盘

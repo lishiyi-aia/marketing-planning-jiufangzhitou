@@ -63,7 +63,7 @@ export const WORKS: Record<WorkLanguage, WorksLang> = {
         "items": [
           {
             "name": "AI资讯产品私域触达与转化优化",
-            "meta": "AI Information Product Insights & Brand Promotion",
+            "meta": "AI Information Product Owned-channel Marketing & Conversion",
             "slug": "ai-news-dashboard",
             "link": `${import.meta.env.BASE_URL}projects/ai-news-dashboard/case_study.html`,
             "tags": [
@@ -136,7 +136,7 @@ export const WORKS: Record<WorkLanguage, WorksLang> = {
         "tagline": "Campaign Planning · Content · Creators · AI Reviews",
         "items": [
           {
-            "name": "AI Information Product Insights & Brand Promotion",
+            "name": "AI Information Product Owned-channel Marketing & Conversion",
             "meta": "From User Needs to Content, Campaigns & Performance Review",
             "slug": "ai-news-dashboard",
             "link": `${import.meta.env.BASE_URL}projects/ai-news-dashboard/case_study.html`,
