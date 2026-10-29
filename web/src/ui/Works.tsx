@@ -173,7 +173,7 @@ export default function Works({ lang, innerRef }: { lang: 'en' | 'zh'; innerRef:
   const hintOpacity = useTransform(scrollYProgress, [0.85, 1], [1, 0])
 
   return (
-    <section className="works" lang={lang} ref={innerRef}>
+    <section id="projects" className="works" lang={lang} ref={innerRef}>
       <div
         className="wk-gallery"
         ref={galleryRef}
